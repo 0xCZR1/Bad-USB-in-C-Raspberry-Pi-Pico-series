@@ -1,9 +1,95 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.8">
   <diagram name="Page-1" id="nz0TRElIpgYFRaquWmAy">
-    <mxGraphModel>
+    <mxGraphModel dx="1302" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rh2bYiGe0c8pdotI4nRt-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Enumeration Process&lt;/h1&gt;&lt;div&gt;Visual representation of the enumeration process&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="50" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rh2bYiGe0c8pdotI4nRt-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rh2bYiGe0c8pdotI4nRt-2" target="rh2bYiGe0c8pdotI4nRt-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rh2bYiGe0c8pdotI4nRt-2" value="1. RST Packet from host to determine USB speed" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="688.75" y="60" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rh2bYiGe0c8pdotI4nRt-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rh2bYiGe0c8pdotI4nRt-4" target="rh2bYiGe0c8pdotI4nRt-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rh2bYiGe0c8pdotI4nRt-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="597.5" y="200" width="382.5" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rh2bYiGe0c8pdotI4nRt-6" value="- VID&lt;div&gt;- PID&lt;/div&gt;&lt;div&gt;- Device Class&lt;/div&gt;&lt;div&gt;- USB version supported&lt;/div&gt;&lt;div&gt;- Max. packet size for EP 0&lt;/div&gt;&lt;div&gt;- Number of possible configurations&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="220" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rh2bYiGe0c8pdotI4nRt-7" value="2. Device Descriptor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="210" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rh2bYiGe0c8pdotI4nRt-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="597.5" y="400" width="502.5" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="rh2bYiGe0c8pdotI4nRt-13" value="3. Config Descriptor Chain" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="412" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rh2bYiGe0c8pdotI4nRt-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="680" y="450" width="400" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rh2bYiGe0c8pdotI4nRt-16" value="- What power the device supports in (mA)&lt;div&gt;- What interfaces it has&lt;/div&gt;&lt;div&gt;- Bus-powered or Self-powered&lt;/div&gt;&lt;div&gt;- Total Length of all Descriptors&lt;/div&gt;&lt;div&gt;- Remote Wake-Up Support&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="827" y="452" width="230" height="103.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rh2bYiGe0c8pdotI4nRt-14" value="Config Descriptor:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="460" width="110" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="rh2bYiGe0c8pdotI4nRt-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="680" y="590" width="400" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rh2bYiGe0c8pdotI4nRt-18" value="Interface Descriptor:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="600" width="120" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="rh2bYiGe0c8pdotI4nRt-19" value="- Device Class&lt;div&gt;- Device Subclass&lt;/div&gt;&lt;div&gt;- Protocol&lt;/div&gt;&lt;div&gt;- Number of EPs&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="826" y="594" width="230" height="80.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rh2bYiGe0c8pdotI4nRt-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="680" y="700" width="400" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rh2bYiGe0c8pdotI4nRt-20" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="rh2bYiGe0c8pdotI4nRt-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="828" y="792" as="sourcePoint" />
+            <mxPoint x="940" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rh2bYiGe0c8pdotI4nRt-24" value="- Direction (IN from Host / OUT from Host)&lt;div&gt;- Transfer Type&lt;/div&gt;&lt;div&gt;- Maximum packet size&lt;/div&gt;&lt;div&gt;- Polling rate&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="826" y="706" width="230" height="80.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rh2bYiGe0c8pdotI4nRt-25" value="Endpoint Descriptor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="710" width="120" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="rh2bYiGe0c8pdotI4nRt-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="680" y="810" width="400" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rh2bYiGe0c8pdotI4nRt-27" value="HID Descriptor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="814" width="120" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="rh2bYiGe0c8pdotI4nRt-28" value="- Direction (IN from Host / OUT from Host)&lt;div&gt;- Transfer Type&lt;/div&gt;&lt;div&gt;- Maximum packet size&lt;/div&gt;&lt;div&gt;- Polling rate&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="1370" width="230" height="80.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rh2bYiGe0c8pdotI4nRt-29" value="&lt;div&gt;- HID version&lt;/div&gt;&lt;div&gt;- Country code&lt;/div&gt;&lt;div&gt;- Number of HID descriptor classes&lt;/div&gt;&lt;div&gt;- Total size of the Report Descriptor&lt;/div&gt;&lt;div&gt;- Type of the Report Descriptor&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="826" y="813" width="230" height="80.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rh2bYiGe0c8pdotI4nRt-33" value="&lt;div&gt;- HID version&lt;/div&gt;&lt;div&gt;- Country code&lt;/div&gt;&lt;div&gt;- Number of HID descriptor classes&lt;/div&gt;&lt;div&gt;- Total size of the Report Descriptor&lt;/div&gt;&lt;div&gt;- Type of the Report Descriptor&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="826" y="923" width="230" height="80.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rh2bYiGe0c8pdotI4nRt-34" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="680" y="920" width="400" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rh2bYiGe0c8pdotI4nRt-35" value="Report Descriptor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="924" width="120" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="rh2bYiGe0c8pdotI4nRt-36" value="&lt;div&gt;- Type of controls&lt;/div&gt;&lt;div&gt;- Data format&lt;/div&gt;&lt;div&gt;- Range values&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="826" y="923" width="230" height="80.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
