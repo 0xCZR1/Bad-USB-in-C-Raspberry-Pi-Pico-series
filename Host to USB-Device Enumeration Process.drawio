@@ -72,17 +72,14 @@
         <mxCell id="rh2bYiGe0c8pdotI4nRt-29" value="&lt;div&gt;- HID version&lt;/div&gt;&lt;div&gt;- Country code&lt;/div&gt;&lt;div&gt;- Number of HID descriptor classes&lt;/div&gt;&lt;div&gt;- Total size of the Report Descriptor&lt;/div&gt;&lt;div&gt;- Type of the Report Descriptor&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="826" y="813" width="230" height="80.5" as="geometry" />
         </mxCell>
-        <mxCell id="rh2bYiGe0c8pdotI4nRt-33" value="&lt;div&gt;- HID version&lt;/div&gt;&lt;div&gt;- Country code&lt;/div&gt;&lt;div&gt;- Number of HID descriptor classes&lt;/div&gt;&lt;div&gt;- Total size of the Report Descriptor&lt;/div&gt;&lt;div&gt;- Type of the Report Descriptor&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="826" y="923" width="230" height="80.5" as="geometry" />
-        </mxCell>
         <mxCell id="rh2bYiGe0c8pdotI4nRt-34" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
-          <mxGeometry x="680" y="920" width="400" height="90" as="geometry" />
+          <mxGeometry x="680" y="920" width="400" height="70" as="geometry" />
         </mxCell>
         <mxCell id="rh2bYiGe0c8pdotI4nRt-35" value="Report Descriptor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="690" y="924" width="120" height="28" as="geometry" />
         </mxCell>
         <mxCell id="rh2bYiGe0c8pdotI4nRt-36" value="&lt;div&gt;- Type of controls&lt;/div&gt;&lt;div&gt;- Data format&lt;/div&gt;&lt;div&gt;- Range values&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="826" y="923" width="230" height="80.5" as="geometry" />
+          <mxGeometry x="826" y="932.5" width="230" height="47" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
